@@ -446,7 +446,7 @@ footer {
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://www.biospectrumindia.com/uploads/articles/1-11859.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://static6.depositphotos.com/1052036/621/v/950/depositphotos_6211884-stock-illustration-family-health-insurance.jpg');
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -539,4 +539,3 @@ span{
 #register{
   left: 450px;
 }
-
