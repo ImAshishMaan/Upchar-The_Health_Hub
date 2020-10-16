@@ -26,7 +26,7 @@
            		<div>
                 	<input type="checkbox" class="chech-box"><span>Remember me</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                	<a href="www.google.com"><span style="color:red;">Forgot password?<span></a>
+                	<a href="https://www.google.com" class="forget-pass"><span style="color:red;">Forgot password?<span></a>
                 </div>	 
                 <button  type="submit" formtarget="_blank" class="submit-btn" >Submit</button>
                    
@@ -43,32 +43,6 @@
             </form>
         </div>
     </div>
-    <script>
-        var x=document.getElementById("login");
-        var y=document.getElementById("register");
-        var z=document.getElementById("btn");
-        function register(){
-            x.style.left = "-400px";
-            y.style.left = "50px";
-            z.style.left = "110px";
-        }
-        function login(){
-            x.style.left = "50px";
-            y.style.left = "450px";
-            z.style.left = "0px";
-            
-        }
-    </script>
-        <script type="text/javascript">
-    	function check(input){
-    		if(input.value!=document.getElementById('password').value){
-    			input.setCustomValidity('Password not Matching.');
-        } else {
-            // input is valid -- reset the error message
-            input.setCustomValidity('');
-        }
-    	}
-    </script>
 </body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>

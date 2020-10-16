@@ -1,13 +1,3 @@
-/* =======================================================================
-Template Name: Youtubers
-Author:  SmartEye Technologies
-Author URI: www.smarteyeapps.com
-Version: 1.0
-coder name:Prabin Raja
-Description: This Template is created for Youtubers
-======================================================================= */
-/* ===================================== Import Less ================================== */
-/* ===================================== Basic CSS ==================================== */
 * {
   margin: 0px;
   padding: 0px;
@@ -453,7 +443,7 @@ footer {
 }
 .form-box{
   width: 380px;
-  height: 651px;
+  height: 510px;
   position: relative;
   margin: 3% auto;
   background: #fff;
@@ -464,7 +454,7 @@ footer {
   width: 220px;
   margin: 35px auto;
   position: relative;
-  box-shadow: 0 0 20px 9px #ff61241f;
+  box-shadow: 0 0 20px 9px #062af51f;
   border-radius: 30px;
 }
 .toggle-btn{
@@ -497,7 +487,7 @@ footer {
   border-radius: 50%;
 }
 .input-group{
-  top: 180px;
+  top: 150px;
   position: absolute;
   width: 280px;
   transition: .5s;
@@ -538,4 +528,8 @@ span{
 }
 #register{
   left: 450px;
+}
+.forget-pass{
+  float: left;
+  margin-left: 182px;
 }
