@@ -444,18 +444,18 @@ footer {
 /*# =============================== login page Css =========================================*/
 
 .hero{
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://static6.depositphotos.com/1052036/621/v/950/depositphotos_6211884-stock-illustration-family-health-insurance.jpg');
-    background-position: center;
-    background-size: cover;
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://static6.depositphotos.com/1052036/621/v/950/depositphotos_6211884-stock-illustration-family-health-insurance.jpg');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
 }
 .form-box{
   width: 380px;
-  height: 480px;
+  height: 651px;
   position: relative;
-  margin: 6% auto;
+  margin: 3% auto;
   background: #fff;
   padding: 5px;
   overflow: hidden;

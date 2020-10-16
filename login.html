@@ -20,17 +20,25 @@
                 <img src="https://www.seekpng.com/png/detail/1010-10103813_facebook-icon-new-instagram-png-black.png">
             </div>
             <form id="login" class="input-group" action="index.html">
-                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="User Id" required>
                 <input type="text" class="input-field" placeholder="Enter Password" required>
-                <input type="checkbox" class="chech-box"><span>Remember Password</span>
+
+           		<div>
+                	<input type="checkbox" class="chech-box"><span>Remember me</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                	<a href="www.google.com"><span style="color:red;">Forgot password?<span></a>
+                </div>	 
                 <button  type="submit" formtarget="_blank" class="submit-btn" >Submit</button>
                    
             </form>
             <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Name" required>
+                <input type="tel" class="input-field" maxlength="10" placeholder="Mobile number" pattern="[0-9]{10}" required>
                 <input type="email" class="input-field" placeholder="Email Id" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="text" class="input-field" id="password" placeholder="Enter Password" required>
+                <input type="text" class="input-field" placeholder="Re-enter Password" oninput="check(this)" required>
                 <input type="checkbox" class="chech-box" required><span>I agree to the terms and conditions</span>
+
                 <button type="submit" class="submit-btn">Register</button>
             </form>
         </div>
@@ -50,9 +58,17 @@
             z.style.left = "0px";
             
         }
-        
     </script>
-    
+        <script type="text/javascript">
+    	function check(input){
+    		if(input.value!=document.getElementById('password').value){
+    			input.setCustomValidity('Password not Matching.');
+        } else {
+            // input is valid -- reset the error message
+            input.setCustomValidity('');
+        }
+    	}
+    </script>
 </body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
